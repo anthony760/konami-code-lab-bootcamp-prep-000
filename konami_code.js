@@ -13,6 +13,7 @@ function init() {
 
       if (index === code.lenth) {
         alert('Congratulations, you have successfully entered the Konami Code!');
+        console.log("Did it!");
         index = 0;
       }
 
