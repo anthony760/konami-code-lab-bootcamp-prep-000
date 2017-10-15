@@ -11,7 +11,7 @@ function init() {
       index++;
 
       if (index === code.lenth) {
-        alert("Congratulations, you have successfully entered the Konami Code!");
+        alert('Congratulations, you have successfully entered the Konami Code!');
         index = 0;
       }
 
