@@ -9,6 +9,7 @@ function init() {
 
     if (key === code[index]) {
       index++;
+      console.log(`Index is: ${index}`);
 
       if (index === code.lenth) {
         alert('Congratulations, you have successfully entered the Konami Code!');
