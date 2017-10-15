@@ -5,15 +5,12 @@ const body = document.querySelector('body');
 function init() {
   body.addEventListener('keydown', function(e) {
     const key = parseInt(e.detail || e.which);
-    console.log(e.which);
 
     if (key === code[index]) {
       index++;
-      console.log(`Index is: ${index}`);
 
       if (index === code.length) {
         alert('Congratulations, you have successfully entered the Konami Code!');
-        console.log("Did it!");
         index = 0;
       }
 
